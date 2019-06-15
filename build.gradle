@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.hdgh0g'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/com.drewnoakes/metadata-extractor
+    compile group: 'com.drewnoakes', name: 'metadata-extractor', version: '2.11.0'
+    // https://mvnrepository.com/artifact/org.knowm.xchart/xchart
+    compile group: 'org.knowm.xchart', name: 'xchart', version: '3.5.3'
+}
